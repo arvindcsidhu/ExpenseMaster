@@ -1,0 +1,32 @@
+spring:
+    profiles:
+        active: development
+---
+spring:
+  profiles: development
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+      repositories:
+        enabled: true
+      uri: mongodb://localhost/test
+server:
+  port: 9010
+   
+---      
+
+spring:
+  profiles: production
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: test
+      repositories:
+        enabled: true
+      uri: mongodb://localhost/test
+server:
+  port: 9010
+  
