@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 
-	<groupId>com.vz.pc.wireless.transport.AuditService</groupId>
-	<artifactId>AuditService</artifactId>
+	<groupId>com.expense.master.ExpenseServiceApplication</groupId>
+	<artifactId>ExpenseService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>AuditService</name>
-	<description>Audit Service</description>
+	<name>ExpenseService</name>
+	<description>Expense Service</description>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -88,6 +88,11 @@
 			<version>2.10.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.0.20.Final</version>
+		</dependency>
 	</dependencies>
 
 

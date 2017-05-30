@@ -1,4 +1,4 @@
-package com.vz.pc.wireless.transport.auditservice.config;
+package com.expense.master.config;
 
 import static springfox.documentation.builders.PathSelectors.regex;
 
@@ -32,9 +32,9 @@ public class SwaggerConfig {
 	}
 
 	private ApiInfo metadata() {
-		return new ApiInfoBuilder().title("Wireless Transport Order Collection Service")
-				.description("Microservice to create a request for VZW Transport ASR. Used by GUI for Audit Service").version("1.0")
-				.contact("sidhu.chandrappa@one.verizon.com").build();
+		return new ApiInfoBuilder().title("Expense Service")
+				.description("Microservice to create a Expense of a day").version("1.0")
+				.contact("sidhu.c1988@gmail.com").build();
 	}
 
 	@Bean
