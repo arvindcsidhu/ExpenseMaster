@@ -1,4 +1,4 @@
-package com.vz.pc.wireless.transport.auditservice.exception;
+package com.expense.master.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

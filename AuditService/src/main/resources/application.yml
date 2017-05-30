@@ -8,10 +8,10 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: test
+      database: expense
       repositories:
         enabled: true
-      uri: mongodb://localhost/test
+      uri: mongodb://localhost/expense
 server:
   port: 9010
    
@@ -23,10 +23,10 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: test
+      database: expense
       repositories:
         enabled: true
-      uri: mongodb://localhost/test
+      uri: mongodb://localhost/expense
 server:
   port: 9010
   

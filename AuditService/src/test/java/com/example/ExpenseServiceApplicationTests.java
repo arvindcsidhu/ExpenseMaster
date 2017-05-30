@@ -5,11 +5,11 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.vz.pc.wireless.transport.auditservice.AuditServiceApplication;
+import com.expense.master.ExpenseServiceApplication;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = AuditServiceApplication.class)
-public class AuditServiceApplicationTests {
+@SpringApplicationConfiguration(classes = ExpenseServiceApplication.class)
+public class ExpenseServiceApplicationTests {
 
 	@Test
 	public void contextLoads() {

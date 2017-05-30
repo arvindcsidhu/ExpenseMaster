@@ -3,7 +3,7 @@
  <contextName>audit</contextName>
 	
 	
-	<property name="app.name" value="auditservice" />
+	<property name="app.name" value="expenseservice" />
 	<property name="pattern.default" value="%d ${PID} %-5level [%thread] %logger{35} [%file:%line] --- %msg %n" />
 	<property name="pcwireless.log.location" value="/apps/opt/pcwireless/logs" />
 
@@ -45,7 +45,7 @@
 		
 	</appender>
 
-    <logger name="com.vz.pc.wireless.transport.auditservice"
+    <logger name="com.expense.master"
               additivity="false">
               <level value="DEBUG" />
               <appender-ref ref="MAIN" />

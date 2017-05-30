@@ -1,4 +1,4 @@
-package com.vz.pc.wireless.transport.auditservice.model.mongod.collection;
+package com.expense.master.model.mongod.collection;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

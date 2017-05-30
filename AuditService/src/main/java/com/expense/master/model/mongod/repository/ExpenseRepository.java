@@ -1,12 +1,13 @@
-package com.vz.pc.wireless.transport.auditservice.model.mongod.repository;
+package com.expense.master.model.mongod.repository;
+
+import java.sql.Date;
+import java.util.List;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
+import com.expense.master.model.mongod.collection.ExpenseRequest;
 
-import com.vz.pc.wireless.transport.auditservice.model.mongod.collection.PcWirelessOrder;
+public interface ExpenseRepository extends MongoRepository<ExpenseRequest, Long> {
+	
+	public List<ExpenseRequest> findBydate(Date date);
 
-public interface PcWirelessOrderRepository extends MongoRepository<PcWirelessOrder, Long> {
-
-	@Query("{'order.orderNumber' : ?0 , 'order.orderVersion' : ?1}")
-	public PcWirelessOrder findByOrderOrderNumberAndOrderOrderVersion(String orderNumber , String orderVersion);
 }

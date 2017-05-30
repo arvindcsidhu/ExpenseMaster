@@ -1,4 +1,4 @@
-package com.vz.pc.wireless.transport.auditservice.config;
+package com.expense.master.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -11,7 +11,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.WriteConcern;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "com.vz.pc.wireless.transport.auditservice.model.mongod.repository")
+@EnableMongoRepositories(basePackages = "com.expense.master.model.mongod.repository")
 public class MongodbConfig extends AbstractMongoConfiguration {
 
 	@Value("${spring.data.mongodb.host}")
